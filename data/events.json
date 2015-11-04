@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "content": "Event A",
+    "start": "2014-04-20"
+  },
+  {
+    "id": 2,
+    "content": "Event B",
+    "start": "2014-04-14"
+  },
+  {
+    "id": 3,
+    "content": "Event C",
+    "start": "2014-04-18"
+  },
+  {
+    "id": 4,
+    "content": "Event D",
+    "start": "2014-04-16",
+    "end": "2014-04-19"
+  },
+  {
+    "id": 5,
+    "content": "Event E",
+    "start": "2014-04-25"
+  },
+  {
+    "id": 6,
+    "content": "Event F",
+    "start": "2014-04-27",
+    "type": "point"
+  }
+]
