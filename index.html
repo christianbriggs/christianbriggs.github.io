@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-
-
-    <title>Christian Briggz</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
     <link href="css/vis.css" rel="stylesheet" type="text/css"/>
     <link href="css/custom.css" rel="stylesheet" type="text/css"/>
     <!-- Latest compiled and minified CSS -->
@@ -20,16 +21,32 @@
 
 </head>
 <body>
-<div id="loading">loading...</div>
+<div class="container">
+
+    <h1>Christian Briggs <small> draft CV</small></h1>
+
+    <br>
+
+    <div id="loading">loading...</div>
 
 
-<div id="visualization"></div>
-
-<dl id="list" class="dl-horizontal"></dl>
 
 
-<div id=facets></div>
-<div id=results></div>
+    <div id="visualization"></div>
+    <h2>Noteworthy Events</h2>
+
+    <dl id="event_list" class="dl-horizontal" text-overflow="False"></dl>
+
+    <h2>Things i Do</h2>
+    <hr>
+
+    <dl id="skill_list" class="dl-horizontal" text-overflow="False"></dl>
+
+
+
+
+</div>
+
 
 <script type="text/javascript">
     // DOM element where the Timeline will be attached
@@ -76,7 +93,7 @@
         editable: true
     };
 
-    //create the entries
+    //create the html event entries
     $.getJSON("data/events.json", function (data) {
         console.log(JSON.stringify(data))
         var html = '';
@@ -87,8 +104,23 @@
 
             html += '<br>'
         });
-        $('#list').html(html);
+        $('#event_list').html(html);
     });
+
+        //create the html event entries
+    $.getJSON("data/skills.json", function (data) {
+        console.log(JSON.stringify(data))
+        var html = '';
+        $.each(data.items, function (key, value) {
+
+            html += '<dt>' + value.content + '</dt>';
+            html += '<dd>' + value.longer + '</dd>';
+
+            html += '<br>'
+        });
+        $('#skill_list').html(html);
+    });
+
 
     //      document.getElementById('.link').onclick = function() {
     //        timeline.focus(2);
