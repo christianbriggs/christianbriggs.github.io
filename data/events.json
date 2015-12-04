@@ -1,34 +1,46 @@
-[
-  {
-    "id": 1,
-    "content": "Event A",
-    "start": "2014-04-20"
-  },
-  {
-    "id": 2,
-    "content": "Event B",
-    "start": "2014-04-14"
-  },
-  {
-    "id": 3,
-    "content": "Event C",
-    "start": "2014-04-18"
-  },
-  {
-    "id": 4,
-    "content": "Event D",
-    "start": "2014-04-16",
-    "end": "2014-04-19"
-  },
-  {
-    "id": 5,
-    "content": "Event E",
-    "start": "2014-04-25"
-  },
-  {
-    "id": 6,
-    "content": "Event F",
-    "start": "2014-04-27",
-    "type": "point"
-  }
-]
+{
+  "items": [
+    {
+      "id": 1,
+      "content": "First Job",
+      "start": "2015-08-03T00:00:00.000Z",
+      "group": "0"
+    },
+    {
+      "id": 2,
+      "content": "Second Job",
+      "start": "2014-04-14",
+      "group": "0"
+    },
+    {
+      "id": 3,
+      "content": "First Skill",
+      "start": "2014-04-18",
+      "group": "1"
+    },
+    {
+      "id": 4,
+      "content": "First Research Event",
+      "start": "2014-04-16",
+      "end": "2014-04-19",
+      "group": "2"
+    }
+  ],
+  "groups": [
+    {
+      "id": 0,
+      "content": "Work",
+      "value": 1
+    },
+    {
+      "id": 1,
+      "content": "Learning",
+      "value": 3
+    },
+    {
+      "id": 2,
+      "content": "Research",
+      "value": 2
+    }
+  ]
+}
