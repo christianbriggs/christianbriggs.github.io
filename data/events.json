@@ -17,6 +17,13 @@
       "content": "Started PhD work",
       "longer": "Indiana University School of Informatics <br> HCI/Complex Systems. Currently working on my dissertation. ",
       "id": "event_3"
+    },
+    {
+      "start": "1984-01-01T05:00:00.000Z",
+      "end": "1990-01-01T05:00:00.000Z",
+      "content": "Bad 80s hair",
+      "longer": "Probably not even cool then. Except if you were a member of the band Flock of Seagulls.",
+      "id": "event_4"
     }
   ]
 }
