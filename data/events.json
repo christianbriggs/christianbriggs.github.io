@@ -3,16 +3,20 @@
     {
       "start": "1970-05-01T03:59:59.000Z",
       "content": "born",
+          "longer":"Really. Or hatched.",
       "id": "754a5754-124f-4353-b148-3b14558c0393"
     },
     {
       "start": "1999-12-31T05:00:00.000Z",
-      "content": "celebrated y2k",
+      "content": "Lived through y2k",
+          "longer":"Not as hard as expected.",
       "id": "e1da4c8c-43ee-4752-9187-334453c2aa1b"
     },
+
     {
       "start": "2004-12-31T05:00:00.000Z",
-      "content": "started PhD",
+      "content": "Started PhD work",
+     "longer":"Indiana University School of Informatics <br> HCI/Complex Systems. Currently working on my dissertation.. ",
       "id": "ef5080a4-6f46-4471-9890-7b87a37affb9"
     }
   ]

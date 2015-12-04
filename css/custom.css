@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+.vis-timeline {
+    border: none;
+    font-size: 12pt;
+    background: #ffffff;
+}
+
+.vis-timeline .vis.line {
+    border: none;
+}
+
+.vis-timeline .vis-group {
+    border: none;
+}
+
+.vis-item {
+    font-family: sans-serif;
+    position: absolute;
+    color: #ffffff;
+    border-color: #000000;
+    border-width: 1px;
+    background-color: #000000;
+    display: inline-block;
+    /*overflow: hidden;*/
+}
+
+.vis-item.vis-selected {
+  border-color: #000000;
+  background-color: #999999;
+
+  /* z-index must be higher than the z-index of custom time bar and current time bar */
+  z-index: 2;
+}
+
+.vis-item.vis-point.vis-selected {
+  background-color: #999999;
+}
